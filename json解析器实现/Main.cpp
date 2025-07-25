@@ -24,9 +24,6 @@ int main()
 	std::cout << c << std::endl;
 	std::cout << j6.str() << std::endl;
 	json obj;
-	obj["bool"] = true;
-	obj["int"] = 42;
-	std::cout << obj.str() << std::endl;
 	for (auto it = j6.begin(); it != j6.end(); it++)
 	{
 		std::cout << it->str() << std::endl;
